@@ -11,7 +11,10 @@
     <div class="div1">
         <div class="div2">
             <p>Player-1</p>
+            <p id="p1value"></p>
+            <p id="p1total"></p>
             <button onclick="roll()">Roll Now</button>
+            
            
         </div>
         <span></span>
@@ -20,12 +23,15 @@
         </div>
         <div class="div4">
             <p>Player-2</p>
-            <button class="btn2">Roll Now</button>
+            <p id="p2total"></p>
+            <button onclick="roll1()">Roll Now</button>
+            
             <span></span>
         </div>
     </div>
     <center>
-        <button class="btn3">Reset</button>
+        <button onclick="reset()">Reset</button>
+        <p id="result"></p>
     </center>
     <script src="./script.js"></script>
 </body>
