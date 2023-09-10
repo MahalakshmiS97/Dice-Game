@@ -12,26 +12,23 @@
         <div class="div2">
             <p>Player-1</p>
             <p id="p1value"></p>
-            <p id="p1total"></p>
-            <button onclick="roll()" class="btn1" id="button1">Roll Now</button>
-            
-           
+            <p id="p1total">0</p>
+            <button onclick="roll()" class="btn1 active1" id="button1">ROLL NOW</button> 
         </div>
-        <span></span>
         <div class="div3">
-            <img id="die-1">
+            <img src="./dice-1.PNG" id="die-1">
         </div>
         <div class="div4">
             <p>Player-2</p>
-            <p id="p2total"></p>
-            <button onclick="roll1()" class="btn2" id="button2">Roll Now</button>
-            
-            <span></span>
+            <p id="p2total">0</p>
+            <button onclick="roll1()" class="btn2" id="button2">ROLL NOW</button>
         </div>
     </div>
     <center>
-        <button onclick="reset()" class="btn3">Reset</button>
+        <div class="div5">
+        <button onclick="reset()" class="btn3">RESET</button>
         <p id="result"></p>
+    </div>
     </center>
     <script src="./script.js"></script>
 </body>
